@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ background: #000000;
+}
+
+/* Container */
+.container {
+    background: url(images/fon\ main.png);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    height: 753px;
+}  
+
+.container2 {
+    left: 0px;
+    background: #000000;
+}
+
+.container3 {
+    left: 0px;
+    background-color: #000000;
+}
+
+.container4 {
+    left: 0px;
+    background: #000000;
+}
+
+.container5 {
+    left: 0px;
+    background: #000000;
+}
+
+.container6 {
+    background: url(images/финал.png);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    height: 753px;
+}
+    
+
+/* Intro */
+.intro__title {
+    display: flex;
+    padding: 485px 509px 137px;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 96px;
+    color: #FFFFFF;
+    text-shadow: 7px 5px 4px rgba(116, 76, 30, 0.4); 
+}
+
+.intro__title:after {
+    content: "";
+    display: block;
+    width: 570px;
+    margin-left:-20px;
+    height: 5px;
+    display: none;
+
+    background: #00A4E5;
+    position: absolute;
+    margin-top: 130px;
+    z-index: 1;
+}
+
+.intro__title:hover:after {
+    display: block;
+}
+
+.intro__suptitle {
+    position: absolute;
+    width: 600px;
+    left: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 28px;
+    color: #FFFFFF;
+    z-index: 3;
+    padding: 34px 8px 32px;
+    
+}
+
+.intro__text {
+    position: absolute;
+    margin-top: -500px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 84px;
+    z-index: 5;
+    color: #FFFFFF;
+    margin: 6px 730px 306px;
+
+}
+
+.intro__suptittle {
+    position: absolute;
+    width: 617px;
+    left: 690px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 28px;
+    color: #FFFFFF;
+    z-index: 3;
+}
+
+.intro__textt {
+    position: absolute;
+    top: 150px;
+    left: 140px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-weight: 700px;
+    font-size: 52px;
+    color: #FFFFFF;
+    z-index:5;
+    
+}
+
+.intro__texta {
+    position: absolute;
+    width: 520px;
+    left: 700px;
+    top: 3744px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 29px;
+    line-height: 32px;
+    font-style: normal;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 12px 8px;
+}
+
+
+/* Images */
+.images {
+    display: flex;
+    flex-direction: column;
+    padding: 21px 33px 21px ;
+    justify-content: center;
+}
+
+.images1 {
+    display: flex;
+    flex-direction: column;
+    padding: 21px 33px 21px;
+    justify-content: center;
+}
+
+.images2 {
+    display: flex;
+    flex-direction: column;
+    padding: 21px 33px 21px;
+    justify-content: center;
+    position: relative;
+}
+
+.images2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.85);  
+    z-index: 1;
+  }
+
+.images3 img {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    margin-left: 757px;
+    top:230px;
+    z-index:1;
+}
+
+.images4 {
+    display: flex;
+    flex-direction: column;
+    padding: 21px 33px 21px;
+    justify-content: center;
+    position: relative;
+}
+
+.images4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.85);  
+    z-index: 1;
+}
+
+.images5 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 100px;
+    top: 230px;
+    z-index: 1;
+}
+
+
+/* h */
+h2 {
+    position: absolute;
+    width: 520px;
+    left: 100px;
+    top: 822px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 29px;
+    line-height: 32px;
+    font-style: normal;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 12px 8px;
+}
+
+
+h3 {
+    position: absolute;
+    width: 528px;
+    left: 100px;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 29px;
+    line-height: 32px;
+    font-style: normal;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 75px 21px 75px;
+}
+
+
